@@ -78,7 +78,7 @@ int main(int argc, char **argv) {
   std::ofstream fout;
   fout.open(argv[2]);
 
-  for (auto &str : lines) {
+  for (const auto &str : lines) {
     fout << str << '\n';
   }
   fout.close();
