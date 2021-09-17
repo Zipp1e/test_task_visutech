@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
-#include <vector>
 #include <sstream>
+#include <vector>
 #include <algorithm>
 #include <cassert>
 #include "tests.h"
