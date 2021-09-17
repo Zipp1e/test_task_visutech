@@ -3,11 +3,12 @@
 #include <vector>
 #include <sstream>
 #include <algorithm>
+#include <cassert>
 #include "tests.h"
 
 std::string to_lowercase(const std::string &str) {
   std::string res;
-  for (auto &c: str) {
+  for (auto &c : str) {
     res += std::tolower(c);
   }
   return res;
